@@ -1,9 +1,9 @@
-//(function() {
-   // var authorizedDomain = "therealbrainsyncproject.com";
+(function() {
+   var authorizedDomain = "therealbrainsyncproject.com";
 
-  //  var currentDomain = window.location.hostname;
+   var currentDomain = window.location.hostname;
 
-   // if (currentDomain !== authorizedDomain) {
-       // window.location.href = "https://" + authorizedDomain;
- //   }
-//})();
+   if (currentDomain !== authorizedDomain) {
+        window.location.href = "https://" + authorizedDomain;
+    }
+})();
